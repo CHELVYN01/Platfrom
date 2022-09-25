@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <form action="">
+      <label for="bil1"> bilangan 1 :</label>
+      <input type="text" id="bil1" name="bil1" /><br />
+      <label for="bilangan 1"> bilangan 2 :</label>
+      <input type="text" id="bil2" name="bil2" /><br />
+      <input type="submit" value="Submit" />
+    </form> -->
+    <script>
+      //masukan  nilai yang ingin di  kalkulasikan
+      const number1 = parseFloat(prompt("masukan bilang 1:"));
+      const operator = prompt("masukan operator (+,-,*,/)");
+      const number2 = parseFloat(prompt("masukan bilangan 2:"));
+
+      //membuat perbandingan
+      if (operator == "+") {
+        result = number1 + number2;
+      } else if (operato == "-") {
+        result = number1 - number2;
+      } else if (operator == "*") {
+        result = number1 * number2;
+      } else if (operator == "/") {
+        result = number1 / number2;
+      } else {
+        result = number1;
+      }
+      // window.alert("hasil " + result);
+      //console.log("hasinya " + result);
+    </script>
+  </body>
+</html>
