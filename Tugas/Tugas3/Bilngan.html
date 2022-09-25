@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var jml = Number(prompt("masukan  Jumlah  Keseluruahan"));
+
+      var genap = 0;
+      var ganjil = 0;
+      for (i = 0; i < jml; i++) {
+        if (i % 2 == 0) {
+          genap += 1;
+        } else {
+          ganjil += 1;
+        }
+      }
+      console.log("jumlah genap: " + genap);
+      console.log("jumlah ganjil: " + ganjil);
+    </script>
+  </body>
+</html>
